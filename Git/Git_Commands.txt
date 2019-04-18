@@ -1,0 +1,500 @@
+212  git remote add origin https://github.com/grapesonwang/Traffic_Gaussian_Process.git
+  213  git push -u origin master
+  214  git config --global user.name grapesonwang
+  215  git config --global user.email grapesonwang@gmail.com
+  216  git push -u origin master
+  217  git remote add origin https://github.com/grapesonwang/Traffic_Gaussian_Process.git
+  218  git config --global http.postBuffer 524288000
+  219  git config --global https.postBuffer 524288000
+  220  git push -u origin master
+  221  ssh-keygen -t rsa -C grapesonwang@gmail.com
+  222  cd ~/.ssh
+  223  clip < ~/.ssh/id_rsa.pub
+  224  cd
+  225  cd Desktop/Google\ Drive\ PW/Mendeley/GitHub/Traffic_Gaussian_Process/
+  226  git init
+  227  git config --global user.name grapesonwang
+  228  git config --global user.email grapesonwang@gmail.com
+  229  git remote add origin https://github.com/grapesonwang/Traffic_Gaussian_Process
+  230  git push -u origin master
+  231  touch README
+  232  git add README
+  233  git commit -m 'first commit'
+  234  git push origin master
+  235  git pull origin master
+  236  git push origin master
+  237  git pull origin master --allow-unrelated-histories
+  238  git push origin master
+  239  git push -u origin master
+  240  cd DataFromMatlab/
+  241  ls
+  242  git add data_merge.m
+  243  git commit -m 'First version of GP for traffic prediction'
+  244  git push -u origin master
+  245  cd ..
+  246  git add DataFromMatlab/
+  247  git push origin master
+  248  git commit -m 'the initial edition'
+  249  git pull origin master
+  250  git push origin master
+  251  git config --global http.postBuffer 524288000
+  252  git add DataFromMatlab/
+  253  git commit -m 'after change buffer size to 524288000'
+  254  git push origin master
+  255  cd DataFromMatlab/
+  256  ls
+  257  git rm origin text.xlsx
+  258  git rm text.xlsx
+  259  ls
+  260  cd ..
+  261  git commit -m 'delte text.xlsx'
+  262  git push origin master
+  263  cd DataFromMatlab/
+  264  ls
+  265  git rm asy_mat.xlsx
+  266  ls
+  267  cd ..
+  268  git add A
+  269  git add -A.
+  270  git add -A
+  271  git commit -m 'delete asy_mat.xlsx'
+  272  git push origin master
+  273  git pull origin master
+  274  git push orgin master
+  275  git push origin master
+  276  cd DataFromMatlab/
+  277  ls
+  278  cd ..
+  279  git remote rm origin
+  280  git remote add origin https://github.com/grapesonwang/Traffic_Gaussian_Process.git
+  281  git add .
+  282  git commit -m 'why'
+  283  git push -u origin master
+  284  git status
+  285  git pull origin master
+  286  git status
+  287  cd DataFromMatlab/
+  288  ls
+  289  git pull origin master
+  290  git add .
+  291  git commit -m 'file'
+  292  git push -u origin master
+  293  git rm -r 'text.xlsx'
+  294  git rm -r text.xlsx
+  295  cd ..
+  296  git remote rm -r DataFromMatlab/
+  297  git status
+  298  git remote remove -r DataFromMatlab/
+  299  git remote remove -r DataFromMatlab
+  300  cd
+  301  cd Desktop/Google\ Drive\ PW/Mendeley/GitHub/Traffic_Gaussian_Process/
+  302  git init
+  303  git config --global user.name grapesonwang
+  304  git config --global user.email grapesonwang@gmail.com
+  305  git remote add origin https://github.com/grapesonwang/Traffic_Gaussian_Process
+  306  git remote remove origin
+  307  git remote add origin https://github.com/grapesonwang/Traffic_Gaussian_Process
+  308  git pull orgin master
+  309  git pull origin master
+  310  git push origin master
+  311  git diff
+  312  cd DataFromMatlab/
+  313  ls
+  314  git rm data_merge.m
+  315  git status
+  316  git diff
+  317  git commit -m 'delelte'
+  318  git add .
+  319  git status
+  320  git diff
+  321  git pull origin master
+  322  git push origin master
+  323  git remote ls
+  324  git remote -v
+  325  git reset HEAD
+  326  git status
+  327  git pull origin master
+  328  git push origin master
+  329  cd
+  330  git lfs install
+  331  cd Desktop/Google\ Drive\ PW/Mendeley/GitHub/Traffic_Gaussian_Process/
+  332  git pull origin master
+  333  git push origin master
+  334  cd DataFromMatlab/
+  335  LS
+  336  git add papertest.m
+  337  git commit -m '2'
+  338  git pull origin master
+  339  git push origin master
+  340  cd ..
+  341  git rm -r --cached
+  342  git rm -r --cached .
+  343  git add .
+  344  git commit -m 'update .gitignore'
+  345  git pull origin master
+  346  git status
+  347  git push origin master
+  348  cd
+  349  cd Desktop/Google\ Drive\ PW/Mendeley/GitHub/Traffic_Gaussian_Process/
+  350  ls
+  351  git status
+  352  git remote add origin https://github.com/grapesonwang/Traffic_Gaussian_Process.git
+  353  git remote remove origin
+  354  git remote add origin https://github.com/grapesonwang/Traffic_Gaussian_Process.git
+  355  git config --list
+  356  git pull -u origin master
+  357  git pull origin master
+  358  git pull origin master
+  359  git remote add origin https://github.com/grapesonwang/Traffic_Gaussian_Process.git
+  360  git remote remove origin
+  361  git remote add origin https://github.com/grapesonwang/Traffic_Gaussian_Process.git
+  362  git pull origin master
+  363  git status
+  364  git push origin master
+  365  cd DataFromMatlab/
+  366  ls
+  367  cd ..
+  368  ls
+  369  ls -l
+  370  ls -a
+  371  nano .gitignore
+  372  ls -l
+  373  git status
+  374  git rm -r --cached .
+  375  git add .
+  376  ls
+  377  git status
+  378  git commit -am "updated .gitignore to exclude .xlsx files"
+  379  git push -u origin master
+  380  tree
+  381  cd DataFromMatlab/
+  382  ls -al
+  383  git checkout -- asy_mat.xlsx
+  384  git branch
+  385  git log
+  386* git rebase ma-i
+  387  cd ..
+  388  git log --oneline --decorate --graph
+  389  git rebase -i master
+  390  git rebase -i HEAD~4
+  391  git rm --cached asy_mat.xlsx
+  392  git rm --cached DataFromMatlab/asy_mat.xlsx
+  393  git rm --cached DataFromMatlab/text.xlsx
+  394  git rm --cached DataFromMatlab/test.xlsx
+  395  git rm --cached DataFromMatlab/text.xlsx
+  396  git commit --amend -C HEAD
+  397  git rebase --continue
+  398  git status
+  399  git rebase --abort
+  400  git log --oneline --graph --decorate
+  401  git status
+  402  rm -rf .git
+  403  git status
+  404  git init
+  405  git remote add origin https://github.com/grapesonwang/Traffic_Gaussian_Process.git
+  406  git status
+  407  ll DataFromMatlab/
+  408  ll -h DataFromMatlab/
+  409  vim .gitignore
+  410  git status
+  411  git add .
+  412  git status
+  413  git push origin master
+  414  git pull
+  415  git pull origin master
+  416  git remote add origin https://github.com/grapesonwang/Traffic_Gaussian_Process.git
+  417  git push -u origin master
+  418  git status
+  419  git commit -am @in
+  420  git commit --amend
+  421  git status
+  422  git log
+  423  git push origin master
+  424  ls
+  425  ls -l
+  426  ls -a
+  427  cd .git
+  428  ls -al
+  429  cd ..
+  430  ls -al
+  431  git branch
+  432  git branch local_TrGP
+  433  git checkout local_TrGP
+  434  ll DataFromMatlab/
+  435  git config --list
+  436  git config --global user.name grapesonwang
+  437  git config --list
+  438  ls
+  439  nano readme.txt
+  440  ls
+  441  git add readme.txt
+  442  git commit -am "First version of help file for the group in Sheffield"
+  443  git merge local_TrGP
+  444  git branch
+  445  git branch -r
+  446  git push origin local_TrGP
+  447  git pull origin local_TrGP:master
+  448  git status
+  449  git checkout
+  450  git checkout master
+  451  git status
+  452  git pull
+  453  git branch -a
+  454  git merge local_TrGP
+  455  git status
+  456  git branch -a
+  457  git merge local_TrGP
+  458  git commit -am 'merge'
+  459  git status
+  460  git push origin master
+  461  git checkout local_TrGP
+  462  ls
+  463  vim readme.txt
+  464  vim index.html
+  465  git commit -a -m 'added readme.txt'
+  466  git checkout master
+  467  git merge local_TrGP
+  468  ls
+  469  git checkout local_TrGP
+  470  ls
+  471  ls -al
+  472  git config --list
+  473  cd DataFromMatlab/
+  474  LS
+  475  ls -al
+  476  cd ..
+  477  ll -h DataFromMatlab/
+  478  mkdir data_xlsx
+  479  ls
+  480  cd DataFromMatlab/
+  481  ll -al
+  482  ll -h
+  483  mv *.xlsx ../data_xlsx
+  484  ls
+  485  cd ../data_xlsx/
+  486  ls
+  487  cd ..
+  488  mkdir data_mat
+  489  ls
+  490  cd data_mat/
+  491  cd ..
+  492  ls
+  493  cd DataFromMatlab/
+  494  ls
+  495  mv *.mat ../data_mat
+  496  ls
+  497  cd ..
+  498  ls
+  499  mkdir data_txt
+  500  cd DataFromMatlab/
+  501  ls
+  502  mv *.txt data_txt
+  503  ls
+  504  cd ..
+  505  mkdir fig
+  506  ls
+  507  cd DataFromMatlab/
+  508  ls
+  509  mv *.png ../fig
+  510  ls
+  511  cd ..
+  512  ls
+  513  git pull origin local_TrGP
+  514  git push origin local_TrGP
+  515  git add .
+  516  git commit -a -m 'split files into different folders'
+  517  git status
+  518  git pull origin local_TrGP
+  519  git push -u origin local_TrGP
+  520  ls -al
+  521  vim .gitignore
+  522  ls
+  523  ls
+  524  cd DataFromMatlab/
+  525  ls
+  526  mv data_txt ../data_txt
+  527  ls
+  528  cd ..
+  529  cd data_txt/
+  530  ls
+  531  cd ..
+  532  ls
+  533  git add .
+  534  git commit -a -m "split files into different folders"
+  535  ls
+  536  cd data_mat/
+  537  ls
+  538  ls
+  539  cd ..
+  540  git pull origin local_TrGP
+  541  git config http.postBuffer 5242888000
+  542  git push origin local_TrGP
+  543  cd ls
+  544  ls
+  545  git lfs install
+  546  git add .gitattributes
+  547  ls -al
+  548  cd .git
+  549  ls
+  550  cd info
+  551  ls
+  552  cd ..
+  553  cd ..
+  554  ls
+  555  ls
+  556  git lfs track "*.txt"
+  557  git lfs track "*.xlsx"
+  558  git lfs track "*.mat"
+  559  git pull origin local_TrGP
+  560  git status
+  561  git add .gitattributes
+  562  git push origin local_TrGP
+  563  git log --oneline --graph --decorate
+  564  git add .
+  565  git commit -a -m 'after lfs'
+  566  git pull origin local_TrGP
+  567  git status
+  568  git pull rebase
+  569  git pull --rebase
+  570  git status
+  571  git pull origin local_TrGP
+  572  git push -u origin local_TrGP
+  573  git pull --rebase abort
+  574  git rebase --abort
+  575  git status
+  576  git diff origin local_TrGP
+  577  git diff local_TrGP origin/local_TrGP
+  578  git push origin master:local_TrGP
+  579  git pull origin local_TrGP
+  580  git status
+  581  git push -u origin local_TrGP
+  582  git reset --hard HEAD~x
+  583  git reset --hard origin/local_TrGP
+  584  git status
+  585  ls
+  586  cd DataFromMatlab/
+  587  ls
+  588  git add .
+  589  git commit -am "try"
+  590  git pull origin local_TrGP
+  591  git push origin local_TrGP
+  592  git lfs install
+  593  git lsf track "*.txt"
+  594  git lfs track "*.txt"
+  595  git lfs track "*.mat"
+  596  git lfs track "*.xlsx"
+  597  git add .gitattributes
+  598  git diff origin/local_TrGP
+  599  git commit -am "commit lfs in DataFromMatlab"
+  600  ls -al
+  601  git push origin local_TrGP
+  602  ls
+  603  ls -a
+  604  rm -rf .gitattributes
+  605  ls
+  606  ls -a
+  607  git add .
+  608  git commit -am "remove .gitattributes in DataFromMatlab"
+  609  git diff origin/local_TrGP
+  610  git push origin local_TrGP
+  611  ls
+  612  ls -a
+  613  cd ..
+  614  ls
+  615  cd DataFromMatlab/
+  616  ls
+  617  ls -a
+  618  rm -f ./
+  619  rm -f ../
+  620  ls
+  621  cd ..
+  622  git lfs install
+  623  git lfs track "*.txt"
+  624  git lfx track "*.mat"
+  625  git lfs track "*.mat"
+  626  git lfs track "*.xlsx"
+  627  git add .gitattributes
+  628  git commit "add lfs to the repository"
+  629  git commit -am  "add lfs to the repository"
+  630  git diff origin/local_TrGP
+  631  git push origin local_TrGP
+  632  git log --oneline --graph --decorate
+  633  mkdir txt_data
+  634  ls
+  635  cd DataFromMatlab/
+  636  ls
+  637  mv data_txt ../txt_data
+  638  ls
+  639  cd ..
+  640  git add .
+  641  git commit -am "add folder txt_data to the repository"
+  642  git push origin local_TrGP
+  643  git status
+  644  git log --online --graph --decorate
+  645  git log --oneline --graph --decorate
+  646  ls
+  647  mkdir mat_data
+  648  ls
+  649  cd mat_data/
+  650  ls
+  651  cd ..
+  652  git add .
+  653  git commit -a -m "add folder mat_data"
+  654  git push origin local_TrGP
+  655  git add mat_data/
+  656  git commit -am "after add mat_data folder"
+  657  git pull origin local_TrGP
+  658  git diff origin/local_TrGP
+  659  ls -al
+  660  ll -h
+  661  ll -h DataFromMatlab/
+  662  ll -h mat_data/
+  663  ls
+  664  ls -a
+  665  vim .gitignore
+  666  git add .
+  667  ls
+  668  git commit -am "changed local .gitignore"
+  669  git pull origin local_TrGP
+  670  git push origin local_TrGP
+  671  mkdir xlsx_data
+  672  ls
+  673  git add xlsx_data/
+  674  git commit -am "created the xlsx_data folder, but nothing there yet, just in case a hard reset is needed"
+  675  git push origin local_TrGP
+  676  git pull origin local_TrGP
+  677  git push origin local_TrGP
+  678  git diff origin/local_TrGP
+  679  git lfs -h
+  680  git lfs help
+  681  git lfs version
+  682  ls
+  683  git add xlsx_data/
+  684  git commit -am "added asy_mat to folder xlsx_data, which is more than 200 MB"
+  685  git pull origin local_TrGP
+  686  git status
+  687  git push origin local_TrGP
+  688  ls
+  689  ll -h
+  690  cd xlsx_data/
+  691  ls
+  692  cd ..
+  693  git add xlsx_data/
+  694  git commit -am "added other .xlsx files to the xlsx_data folder"
+  695  git status
+  696  git pull origin local_TrGP
+  697  git push origin local_TrGP
+  698  git checkout master
+  699  git merge local_TrGP
+  700  git status
+  701  git pull origin master
+  702  git push -u origin master
+  703  git pull
+  704  git branch -a
+  705  git merge local_TrGP
+  706  git status
+  707  git commit -am "Merge two branches"
+  708  git branch -d local_TrGP
+  709  ls
+  710  git push origin :local_TrGP
+  711  history
